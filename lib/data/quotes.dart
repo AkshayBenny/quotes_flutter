@@ -1,0 +1,43 @@
+import 'package:quotes_app_flutter/models/quote.dart';
+
+const List<Quote> quotesLocalData = [
+  Quote("Albert Einstein", "Inspiration",
+      "Life is like riding a bicycle. To keep your balance, you must keep moving."),
+  Quote("Maya Angelou", "Motivation",
+      "You will face many defeats in life, but never let yourself be defeated."),
+  Quote("Nelson Mandela", "Perseverance",
+      "It always seems impossible until it's done."),
+  Quote("Steve Jobs", "Innovation",
+      "The only way to do great work is to love what you do."),
+  Quote("Walt Disney", "Creativity",
+      "All our dreams can come true, if we have the courage to pursue them."),
+  Quote("Helen Keller", "Determination",
+      "The only thing worse than being blind is having sight but no vision."),
+  Quote("Martin Luther King Jr.", "Equality",
+      "Injustice anywhere is a threat to justice everywhere."),
+  Quote("Mahatma Gandhi", "Peace",
+      "Be the change that you wish to see in the world."),
+  Quote("Confucius", "Wisdom",
+      "It does not matter how slowly you go as long as you do not stop."),
+  Quote("Eleanor Roosevelt", "Empowerment",
+      "The future belongs to those who believe in the beauty of their dreams."),
+  Quote("Ralph Waldo Emerson", "Self-Reliance",
+      "Do not go where the path may lead, go instead where there is no path and leave a trail."),
+  Quote("Henry Ford", "Innovation",
+      "Whether you think you can, or you think you can't – you're right."),
+  Quote("Oscar Wilde", "Humor", "Be yourself; everyone else is already taken."),
+  Quote(
+      "Mark Twain", "Humor", "The secret of getting ahead is getting started."),
+  Quote("Jane Goodall", "Nature",
+      "What you do makes a difference, and you have to decide what kind of difference you want to make."),
+  Quote(
+      "Leonardo da Vinci", "Art", "Simplicity is the ultimate sophistication."),
+  Quote("Amelia Earhart", "Courage",
+      "The most difficult thing is the decision to act, the rest is merely tenacity."),
+  Quote("Bruce Lee", "Philosophy",
+      "Absorb what is useful, discard what is not, add what is uniquely your own."),
+  Quote("Mother Teresa", "Compassion",
+      "Spread love everywhere you go. Let no one ever come to you without leaving happier."),
+  Quote("Friedrich Nietzsche", "Strength",
+      "That which does not kill us makes us stronger.")
+];
