@@ -1,7 +1,6 @@
 // import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:quotes_app_flutter/data/quotes.dart';
-import 'package:quotes_app_flutter/widgets/bottom_nav_bar.dart';
 import 'package:quotes_app_flutter/widgets/home_screen_main_widget.dart';
 import 'package:quotes_app_flutter/widgets/home_screen_top_bar_widget.dart';
 import 'package:quotes_app_flutter/widgets/progress_loader.dart';
@@ -70,7 +69,6 @@ class _HomeScreenState extends State<HomeScreen> {
               },
             )
           : const ProgressIndicatorExample(),
-      bottomNavigationBar: const BottomNavBar(),
     );
   }
 }

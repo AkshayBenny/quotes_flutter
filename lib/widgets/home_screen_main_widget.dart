@@ -34,22 +34,10 @@ class _HomeScreenMainWidgetState extends State<HomeScreenMainWidget> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             FilledButton(
-              onPressed: () {},
-              style: FilledButton.styleFrom(
-                padding: const EdgeInsets.fromLTRB(12, 12, 12, 12),
-                backgroundColor: Colors.white.withOpacity(0.12),
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12)),
-              ),
-              child: const Icon(Icons.favorite), // Add text color
-            ),
-            const SizedBox(
-              width: 24,
-            ),
-            FilledButton(
               onPressed: () async {
                 try {
-                  String imagePath = await createImageFromText(widget.quote.quote);
+                  String imagePath =
+                      await createImageFromText(widget.quote.quote);
                   // Attempt to share to Instagram Story and capture the response as a String?
                   String? result = await SocialShare.shareInstagramStory(
                     appId: '720050726869433',
@@ -70,7 +58,7 @@ class _HomeScreenMainWidgetState extends State<HomeScreenMainWidget> {
                 }
               },
               style: FilledButton.styleFrom(
-                padding: const EdgeInsets.fromLTRB(42, 12, 42, 12),
+                padding: const EdgeInsets.fromLTRB(68, 16, 68, 16),
                 backgroundColor: Colors.white,
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12)),
@@ -81,8 +69,8 @@ class _HomeScreenMainWidgetState extends State<HomeScreenMainWidget> {
               ),
             ),
             const SizedBox(
-              width: 24,
-            ),
+              height: 240,
+            )
           ],
         ),
       ],

@@ -10,31 +10,12 @@ class HomeScreenTopBarWidget extends StatefulWidget {
 class _HomeScreenTopBarWidgetState extends State<HomeScreenTopBarWidget> {
   @override
   Widget build(BuildContext context) {
-    return Row(
+    return const Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        const Text(
+        Text(
           "Quotes.",
           style: TextStyle(color: Colors.white),
-        ),
-        Row(
-          children: [
-            GestureDetector(
-              onTap: () {},
-              child: const Icon(
-                Icons.offline_bolt_outlined,
-                color: Colors.white,
-              ),
-            ),
-            const SizedBox(width: 16),
-            GestureDetector(
-              onTap: () {},
-              child: const Icon(
-                Icons.apps_sharp,
-                color: Colors.white,
-              ),
-            ),
-          ],
         ),
       ],
     );
